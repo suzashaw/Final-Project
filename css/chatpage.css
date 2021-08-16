@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  z-index: 100 !important;
+}
+
+.mobile-container {
+  max-width: 375px;
+  height: 50px;
+  margin: auto;
+  background-color: white;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+    top: 45px;
+    overflow: hidden;
+    background-color: #692D84;
+    position: relative;
+}
+
+#myLinks {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.topnav a {
+  color: white !important;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  color: black !important;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  height: 53px;
+}
+
+.topnav input[type=text] { 
+    float: left;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 17px;
+    border: none;
+    font-size: 17px;
+    width: 295px;
+    background: url(../images/glass.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.topnav input[type=text] {
+    border: 2px solid #ccc !important;
+    border-radius: 10px; 
+  }
+
+.logo {
+  position: absolute;
+  width: 108px;
+  height: 62px;
+  left: 31px;
+  top: 102px;
+  background: url(../images/PEACE_PROJECT_LOGO.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.group1 {
+    width: 232px;
+    color: #692D84;
+    position: absolute;
+    top: 100px;
+    left: 182px;
+    font-family: SF Compact Rounded;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+  }
+
+.Jenny1 {
+  position: absolute;
+  top: -121px;
+  left: 30px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
+}
+
+.chat1 {
+  font-family: SF Compact Rounded;
+  background-color: #692D84;
+  text-align: left;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  position: absolute;
+  top: -100px;
+  left: 20px;
+}
+
+.Sandy1 {
+  position: absolute;
+  top: -4px;
+  left: 98px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
+}
+
+.chat2 {
+  font-family: SF Compact Rounded;
+  background-color: cornflowerblue;
+  text-align: right;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  float: right;
+  position: absolute;
+  top: 18px;
+  left: 92px;
+  text-align: left;
+}
+
+.Sandy2 {
+  position: absolute;
+  top: 301px;
+  left: 98px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
+}
+
+.chat3 {
+  font-family: SF Compact Rounded;
+  background-color: #692D84;
+  text-align: left;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  position: absolute;
+  top: 157px;
+  left: 20px;
+  text-align: left;
+}
+
+.Jenny2 {
+  position: absolute;
+  top: 134px;
+  left: 30px;
+  font-family: SF Compact Rounded;
+  font-size: 17px;
+  text-align: left;
+}
+
+.chat4 {
+  font-family: SF Compact Rounded;
+  background-color: cornflowerblue;
+  text-align: right;
+  padding: 13px 23px;
+  color: white;
+  border-radius: 20px;
+  width: 70%;
+  float: right;
+  position: absolute;
+  top: 323px;
+  left: 92px;
+  text-align: left;
+}
+
+.chat-container {
+  position: absolute;
+  top: 280px;
+  left: 0px;
+}
+
+.bottomspace {
+  height: 10px;
+  position: relative;
+  width: 100%;
+  top: 1226px;
+  left: 0px;
+}
+
+.input-group {
+    top: 442px;
+    left: 1px;
+}

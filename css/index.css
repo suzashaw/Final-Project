@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+  }
+  
+div {
+    z-index: 100 !important;
+  }
+  
+span {
+    text-align: center !important;
+    align-content: center !important;
+}
+
+.mobile-container {
+    max-width: 375px;
+    height: 50px;
+    margin: auto;
+    background-color: white;
+    color: white;
+    border-radius: 10px;
+}
+  
+.topnav {
+    overflow: hidden;
+    top: 45px;
+    background-color: #692D84;
+    position: relative;
+}
+  
+#myLinks {
+    position: relative;
+    display: none;
+    top: 0;
+    left: 0;
+  }
+  
+.topnav a {
+    color: white !important;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+.topnav a.icon {
+    color: black !important;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+  
+.active {
+    background-color: white;
+    color: black;
+    height: 53px;
+  }
+  
+.topnav input[type=text] { 
+    float: left;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 17px;
+    border: none;
+    font-size: 17px;
+    width: 295px;
+    background: url(../images/glass.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.topnav input[type=text] {
+      border: 2px solid #ccc;
+      border-radius: 10px; 
+    }
+
+.indexLogo { 
+    position: absolute;
+    width: 325px;
+    height: 187px;
+    left: 28px;
+    top: 166px;
+    background: url(../images/PEACE_PROJECT_LOGO.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.clickEnter {
+    color: black;
+    font-family: SF Compact Rounded;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;;
+    top: 369px;
+    left: 127px;
+    font-weight: 700;
+}
+
+.ourMissionText {
+    color: black;
+    font-family: SF Compact Rounded;    
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 494px;
+    left: 23px;
+    width: 327px;
+}
+
+.ourMission {
+    width: 131px;
+    color: #692D84;
+    position: absolute;
+    top: 455px;
+    left: 122px;
+    font-family: SF Compact Rounded;
+    font-weight: Bold;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+}
